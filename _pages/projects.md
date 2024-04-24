@@ -1,65 +1,59 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Talks
+permalink: /talks/
+description: Below is a list of my talks and presentations to various conferences and meetings in the field of biomedical informatics. Each entry is linked to additional materials like slides or posters for further details.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 4
+display_categories: []
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
+## Oral presentations
 
-<!-- Display projects without categories -->
+##### ISMB/ECCB 2023 Lyon
+- **Date:** 25/07/2023
+- <a href="{% link /assets/pdf/talks/2023-07-06_Alice_Rogier_talk_ISMB-ECCB.pdf%}">View slides</a>
+- [Online video](https://zenodo.org/records/10548491)
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+##### Bernoulli Lab Kick-off (APHP-Inria)
+- **Date:** 22/03/2022
+- <a href="{% link /assets/pdf/talks/22-03-22_TALREP_Presentation_BernoulliLab.pdf%}">View slides</a>
+- [Online video](https://zenodo.org/records/10548491)
 
-  <!-- Generate cards for each project -->
+##### CRC Scientific Day
+- **Date:** 22/09/2022
+- <a href="{% link /assets/pdf/talks/2022-09-23_CRCDAY.pdf%}">View slides</a>
 
-{% if page.horizontal %}
+##### HeKA Team Meeting
+- **Date:** 13/09/2021
+- <a href="{% link /assets/pdf/talks/2021-09_MedInfo_Using_ontological_representation_of_chemotherapy_toxicities_for_guiding_information_extraction_and_integration_from_EHRs.pdf%}">View slides</a>
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+##### HeKA Team Meeting
+- **Date:** 15/02/2021
+- <a href="{2021-02-15_presentation_staff.pdf%}">View Slides</a>
+
+##### MedInfo 2021
+- **Date:** 02/10/2021
+- <a href="{% link /assets/pdf/talks/2021-09_MedInfo_Using_ontological_representation_of_chemotherapy_toxicities_for_guiding_information_extraction_and_integration_from_EHRs.pdf%}">View slides</a>
+- [Online video](https://www.youtube.com/watch?v=9YCfxLf5wTU)
+
+## Posters
+
+##### ISMB/ECCB 2023 Lyon
+- **Date:** 25/07/2023
+- <a href="{% link /assets/pdf/posters/ISMBECCB2023_poster_ChemoOnto_an_ontology_to_qualify_the_course_of_chemoterapies_Alice_Rogier.pdf%}">View poster</a>
+
+##### AI4Health 2022
+- **Date:** 12/01/2022
+- <a href="{% link /assets/pdf/posters/2021-09-CRC-DAY.pdf%}">View poster</a>
+
+##### CRC Scientific Day
+- **Date:** 23/09/2021
+- <a href="{% link /assets/pdf/posters/2021-09-CRC-DAY.pdf%}">View poster</a>
+
+##### AI4Health 2021
+- **Date:** 04/01/2021
+- <a href="{% link /assets/pdf/posters/2020-12-rogier_alice_AI4HEALTH_2_english_version.pdf%}">View poster</a>
+

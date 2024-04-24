@@ -1,25 +1,28 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://team.inria.fr/heka/fr/'>PhD student</a>, Inserm-Inria, Université de Paris Cité.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: tmp_prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  more_info: 
 news: true # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am Alice Rogier, a PhD candidate in the collaborative Inserm-Inria [HeKA team](https://team.inria.fr/heka/fr/). My research focuses on the detection and prediction of chemotherapy responses using Electronic Health Records (EHRs).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In other words, my work mines the vast and diverse data provided by today's clinical data warehouses to better understand and predict how patients react to their chemotherapy treatments. This involves transforming routine medical data, such as narrative reports, laboratory results, and software records, into valuable insights that can guide treatment decisions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During my PhD, I have made two significant contributions to the field:
+* I developed graph representations, [ChemoOnto](https://zenodo.org/records/10548491) (and its [reuse](https://hal.science/hal-04455155)) and [OntoTox](https://inria.hal.science/hal-03364585), which organize and integrate knowledge about chemotherapies and their responses, making this information more accessible and useful for research.
+* I developed ProtoDrift metric, which measures chemotherapy adherence more accurately than traditional methods by accounting for deviations in treatment schedules and dosages. This metric is currently being evaluated through survival analysis (work in progress).
+
+As I approach the completion of my PhD, I am eager to continue contributing to academic research in this vital area of healthcare.
+
+Thank you for visiting my site, where I share updates on my research and explorations at the intersection of data science and healthcare.
