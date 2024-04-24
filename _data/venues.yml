@@ -5,5 +5,22 @@
 "PhysRev":
   url: https://journals.aps.org/
 
-"Vision":
-  color: "#009f36"
+"JMIR":
+  url: https://www.jmir.org/
+  color: "#1a254c"
+
+"SciRep":
+  url: https://www.nature.com/srep/
+  color: "#695e5e"
+
+"IOS Press":
+  url: https://www.iospress.com/catalog/book-series/studies-in-health-technology-and-informatics
+  color: "#1074fc"
+
+"PRA":
+  url: https://journals.aps.org/pra/
+  color: "#6d787c"
+
+"Report":
+  url: http://www.phys.ens.fr/fr
+  color: "#240925"
