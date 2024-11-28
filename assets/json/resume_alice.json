@@ -14,12 +14,26 @@
   },
   "work": [
     {
+      "name": "Carpem Cancer Institute",
+      "position": "Postdoctoral Researcher",
+      "url": "https://team.inria.fr/heka/fr/",
+      "startDate": "NOW",
+      "endDate": "2024-10-31",
+      "summary": "I am currently structuring and integrating chemotherapy data within the Carpem Master Observational Trial.",
+      "highlights": [
+        "Knowledge graph",
+        "Survival analysis",
+        "Statistical learning",
+        "Text mining"
+      ]
+    },
+    {
       "name": "HeKA team - Inserm-Inria-Université Paris Cité",
       "position": "PhD student in Medical Informatics",
       "url": "https://team.inria.fr/heka/fr/",
       "startDate": "2020-12-01",
-      "endDate": "now",
-      "summary": "PhD on the detection and prediction of chemotherapy responses from EHRs, under the supervision of Bastien Rance and Adrien Coulet. Clinical data warehouses hold important information about chemotherapies and their effects, but it’s often scattered and hard to interpret. To make use of this valuable data, I developed two knowledge graphs called OntoTox and ChemoOnto. These graphs helped me organize and analyze the information effectively. Using these frameworks, I compared standardized and actual chemotherapy regimens. Leveraging these comparisons, I am currently working on predicting chemotherapy responses.",
+      "endDate": "2024-10-31",
+      "summary": "Clinical data warehouses hold important information about chemotherapies and their effects, but it is often scattered and hard to interpret. To make use of these valuable data, I developed two knowledge graphs, OntoTox and ChemoOnto. These graphs organize data on chemotherapy treatments and toxicities, facilitating comparisons between theoretical treatment protocols and actual patient outcomes. I created the ProtoDrift metric to quantify deviations in chemotherapy protocols, thus refining adherence assessments. I validated ProtoDrift through survival analyses, showcasing its potential in advancing precision oncology research.",
       "highlights": [
         "Knowledge graph",
         "Survival analysis",
@@ -67,12 +81,19 @@
     }
   ],
   "education": [
-    {
-      "institution": "Université Paris-Saclay",
+        {
+      "institution": "Université Paris Cité",
       "location": "Orsay, France",
       "url": "https://www.universite-paris-saclay.fr/",
       "area": "Bioinformatics",
       "studyType": "Master"
+    },
+    {
+      "institution": "Université Paris-Saclay",
+      "location": "Orsay, France",
+      "url": "https://u-paris.fr/",
+      "area": "Medical Informatics",
+      "studyType": "¨PhD"
     },
     {
       "institution": "Université Paris-Saclay",
