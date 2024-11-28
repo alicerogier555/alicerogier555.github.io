@@ -77,18 +77,19 @@
   "education": [
         {
       "institution": "Université Paris Cité",
+      "location": "Paris, France",
+      "url": "https://u-paris.fr/",
+      "area": "Medical Informatics",
+      "studyType": "PhD"
+    },
+        {
+      "institution": "Université Paris Saclay",
       "location": "Orsay, France",
       "url": "https://www.universite-paris-saclay.fr/",
       "area": "Bioinformatics",
       "studyType": "Master"
     },
-    {
-      "institution": "Université Paris-Saclay",
-      "location": "Orsay, France",
-      "url": "https://u-paris.fr/",
-      "area": "Medical Informatics",
-      "studyType": "¨PhD"
-    },
+
     {
       "institution": "Université Paris-Saclay",
       "location": "Orsay, France",
