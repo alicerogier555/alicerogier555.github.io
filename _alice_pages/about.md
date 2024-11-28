@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://carpem.fr/en/'> Postdoctoral Researcher </a>, Paris CARPEM Cancer Institute.
+subtitle:  Postdoctoral Researcher, <a href='https://carpem.fr/en/'> Paris CARPEM Cancer Institute. </a>
 
 profile:
   align: right
