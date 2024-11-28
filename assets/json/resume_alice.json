@@ -17,15 +17,9 @@
       "name": "Carpem Cancer Institute",
       "position": "Postdoctoral Researcher",
       "url": "https://team.inria.fr/heka/fr/",
-      "startDate": "NOW",
-      "endDate": "2024-10-31",
-      "summary": "I am currently structuring and integrating chemotherapy data within the Carpem Master Observational Trial.",
-      "highlights": [
-        "Knowledge graph",
-        "Survival analysis",
-        "Statistical learning",
-        "Text mining"
-      ]
+      "startDate": "2024-11-01",
+      "endDate": "NOW",
+      "summary": "I am currently structuring and integrating chemotherapy data within the Carpem Master Observational Trial."
     },
     {
       "name": "HeKA team - Inserm-Inria-Université Paris Cité",
