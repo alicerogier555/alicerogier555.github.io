@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I am Alice Rogier, a Postdoctoral Researcher at the [Carpem Cancer Institute](https://carpem.fr/en/) in Paris. Currently, I focus on integrating and structuring chemotherapy data into the Carpem [Master Observational Trial](https://www.sciencedirect.com/science/article/pii/S0092867419313716), applying the data analysis tools I developed during my PhD.
+Hello! I am Alice Rogier, a postdoctoral researcher at the [Carpem Cancer Institute](https://carpem.fr/en/) in Paris. Currently, I focus on integrating and structuring chemotherapy data into a database compatible with the Carpem [Master Observational Trial](https://www.sciencedirect.com/science/article/pii/S0092867419313716) (MOT) methodology, applying the data analysis tools I developed during my PhD. The MOT methodology aims to facilitate observational studies by combining data from both clinical trials and high-quality electronic health records to support robust and meaningful analyses.
 
 During my doctoral research, I specialized in extracting and predicting chemotherapy responses from Electronic Health Records (EHRs). My work focused on mining the vast and diverse data provided by today’s clinical data warehouses to better understand and predict patient reactions to chemotherapy treatments. This involved transforming routine medical data—such as narrative reports, laboratory results, and software records—into structured knowledge that can guide treatment decisions.
 
