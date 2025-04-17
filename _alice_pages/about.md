@@ -20,7 +20,7 @@ Hello! I am Alice Rogier, a postdoctoral researcher at the [Carpem Cancer Instit
 During my doctoral research, I specialized in extracting and predicting chemotherapy responses from Electronic Health Records (EHRs). My work focused on mining the vast and diverse data provided by today’s clinical data warehouses to better understand and predict patient reactions to chemotherapy treatments. This involved transforming routine medical data—such as narrative reports, laboratory results, and software records—into structured knowledge that can guide treatment decisions.
 
 
-I have made two significant contributions to the field:
+I have made two contributions to the field:
 * I developed graph representations, [ChemoOnto](https://zenodo.org/records/10548491) (and its [reuse](https://hal.science/hal-04455155)) and [OntoTox](https://inria.hal.science/hal-03364585), which organize and integrate knowledge about chemotherapies and their responses, making this information more accessible and useful for research.
 * I developed ProtoDrift metric, which measures chemotherapy adherence more accurately than traditional methods by accounting for deviations in treatment schedules and dosages. This metric has been validated through survival analysis on a pan-cancer study, with results available at [ProtoDrift website](https://files.inria.fr/protodrift-surv/). The preprint of this work is avalaible [here](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4979821). 
 
