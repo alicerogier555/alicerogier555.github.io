@@ -7,3 +7,22 @@
 
 "Vision":
   color: "#009f36"
+
+"medRxiv":
+  color: "#0c4c92"
+  url: https://www.medrxiv.org/
+
+"IOS Press":
+  color: "#307cae"
+  url: https://ebooks.iospress.nl/
+"JMIR":
+  color: "#1c274f"
+  url: https://jmirpublications.com
+
+"Bioinformatics":
+  color: "#187da4"
+  url: https://academic.oup.com/bioinformatics
+
+"SWAT4HCLS 2024":
+  color: "#2b276a"
+  url: https://ceur-ws.org/Vol-3890/

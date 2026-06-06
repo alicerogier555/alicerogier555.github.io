@@ -1,3 +1,19 @@
+
+@article{rogier4979821protodrift,
+  title        = {{ProtoDrift: Evaluating the Impact of Small-to-Big Adjustments to Chemotherapy Protocols}},
+  author={Alice Rogier and Elisabeth Ashton and Corine Barat and Romain Griffier and Vianney Jouhet and Elena Paillaud and Brigitte Sabatier and Julien Ta\"ieb and Éric Zapletal and Bastien Rance and Adrien Coulet},
+  note         = {Preprint available at medRxiv:2025.05.09.25327311},
+  year         = {2025},
+  abbr={medRxiv},
+  journal={medRxiv},
+  selected={true},
+  pages={10.1101/2025.05.09.25327311},
+  html = {https://doi.org/10.1101/2025.05.09.25327311},
+  doi={10.1101/2025.05.09.25327311},
+  pdf = {publications/27_protodrift.pdf},
+  abstract={Adjustments to chemotherapy protocols are common to adapt treatments to individual patient needs, yet consensus on the impact of such adjustements is lacking. We introduce ProtoDrift, a novel metric that quantifies time and dose adjustments in chemotherapies. This weighted distance enables an assessment of their impact on patient outcomes, offering more detailed analyses than the traditional Relative Dose Intensity (RDI). We compared ProtoDrift and RDI prediction performances through survival analyses on 20,808 patients across 38 groups, categorised by cancer location and treatment line at two hospitals. Without optimisation, ProtoDrift achieves either comparable or better prediction results in 71% of patient groups (27 out of 38). Once optimised, ProtoDrift surpasses the RDI C-index predictions in 89% (16 out of 18) of patient groups from the first hospital. This study confirms ProtoDrift as an advanced tool for refining chemotherapy regimen design, highlighting the critical role of time adjustments in patient outcomes.}
+}
+
 @article{10.1093/bioinformatics/btae681,
     author = {Neuraz, Antoine and Vaillant, Ghislain and Arias, Camila and Birot, Olivier and Huynh, Kim-Tam and Fabacher, Thibaut and Rogier, Alice and Garcelon, Nicolas and Lerner, Ivan and Rance, Bastien and Coulet, Adrien},
     title = {Facilitating phenotyping from clinical texts: the medkit library},
@@ -7,7 +23,8 @@
     month = {11},
     url = {https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae681/7901218},
     html = {https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae681/7901218},
-    pdf = {publications/medkit_bioinformatics},
+    pdf = {publications/medkit_bioinformatics.pdf},
+    abbr = {Bioinformatics},
     abstract = {Phenotyping consists in applying algorithms to identify individuals associated with a specific, potentially complex, trait or condition, typically out of a collection of Electronic Health Records (EHRs). Because a lot of the clinical information of EHRs are lying in texts, phenotyping from text takes an important role in studies that rely on the secondary use of EHRs. However, the heterogeneity and highly specialized aspect of both the content and form of clinical texts makes this task particularly tedious, and is the source of time and cost constraints in observational studies.To facilitate the development, evaluation and reproducibility of phenotyping pipelines, we developed an open-source Python library named medkit. It enables composing data processing pipelines made of easy-to-reuse software bricks, named medkit operations. In addition to the core of the library, we share the operations and pipelines we already developed and invite the phenotyping community for their reuse and enrichment.medkit is available at https://github.com/medkit-lib/medkit.Documentation, examples and tutorials are available at https://medkit-lib.org/.},
     issn = {1367-4811},
     doi = {10.1093/bioinformatics/btae681},
@@ -42,17 +59,20 @@ Conclusion: Further works will extend OntoDol to other diseases and assess OntoD
 @inproceedings{jhee:hal-04455155,
   TITLE = {{Representation and comparison of chemotherapy protocols with ChemoKG and graph embeddings}},
   AUTHOR = {Jhee, Jong Ho and Rogier, Alice and Giraud, Dune and Pinet, Emma and Sabatier, Brigitte and Rance, Bastien and Coulet, Adrien},
-  URL = {https://hal.science/hal-04455155},
-  html = {https://hal.science/hal-04455155},
+  URL = {https://ceur-ws.org/Vol-3890/paper-3.pdf},
+  html = {https://ceur-ws.org/Vol-3890/paper-3.pdf},
   BOOKTITLE = {{SWAT4HCLS 2024 - 15th International Semantic Web Applications and Tools for Health Care and Life Sciences Conferenc}},
   ADDRESS = {Leiden (NL), Netherlands},
   YEAR = {2024},
+  volume={3890},
+  pages={23–35},
   MONTH = Feb,
-  KEYWORDS = {Chemotherapy protocol ; Chemotherapy regimen ; Knowledge graph ; Graph embedding ; Clustering},
+  abbr={SWAT4HCLS 2024},
   PDF = {https://hal.science/hal-04455155/file/manuscript_ChemoKG_camera-ready.pdf},
   HAL_ID = {hal-04455155},
   pdf={publications/24_jhee_chomokg.pdf},
   HAL_VERSION = {v1},
+  abstract={Background: Chemotherapy, a central cancer treatment, employs antineoplastic drugs to hinder cancer cell replication by disrupting DNA synthesis or mitosis. Chemotherapies follow complex protocols composed of cycles of treatment where antineoplastic and adjuvant drugs prescribed at different doses and times. Various protocols exist, with either small or large and numerous variations to others, making it hard to compare chemotherapies to each other, comparing their differential outcomes, and in the end choosing the most adapted one for a particular patient. Method: We propose ChemoKG, a knowledge graph for chemotherapy protocols that encompasses first administration programs such as drugs, dosages, treatment durations, and second drug properties and classes imported from ChEBI, DrugBank and the ATC classification. Three resources on drugs provide complementary hierarchies and chemical properties that help to better identify similar chemotherapy protocols. To this aim, we tested on ChemoKG a novel graph embedding method employing graph neural networks (GNNs) to compare nodes in the graph that represent protocols. Unlike previous approaches that focus on triple-based embeddings, the proposed method captures subgraph structures inherited from the aggregation scheme in GNNs. Results: The resulting knowledge graph encompasses 329,164 triples with 99,901 entities and 75 predicates including 1,358 chemotherapy protocols and 226 anti-cancer drugs. We performed a cluster analysis of protocol embeddings learned on ChemoKG, to propose groups of similar protocols. This will contribute in facilitating the comparison of chemotherapy themselves, and by extension to their potential effectiveness. Additionally, it should aid in analyzing gaps between commonly accepted protocols and their real-world implementation},
   preview={swat4ls.png}
 }
 
@@ -70,7 +90,10 @@ Conclusion: Further works will extend OntoDol to other diseases and assess OntoD
   html={https://ebooks.iospress.nl/doi/10.3233/SHTI220038},
   pdf={publications/21_medinfo.pdf},
   selected={true},
-  preview={medinfo_prize.png}
+  preview={medinfo_prize.png},
+  abstract={Introduction: Chemotherapies against cancers are often interrupted due to severe drug toxicities, reducing treatment opportunities. For this reason, the detection of toxicities and their severity from EHRs is of importance for many downstream applications. However toxicity information is dispersed in various sources in the EHRs, making its extraction challenging. 
+Methods: We introduce OntoTox, an ontology designed to represent chemotherapy toxicities, its attributes and provenance. We illustrated the interest of OntoTox by integrating toxicities and grading information extracted from three heterogeneous sources: EHR questionnaires, semi-structured tables, and free-text. 
+Results: We instantiated 53,510, 2,366 and 54,420 toxicities from questionnaires, tables and free-text respectively, and compared the complementarity and redundancy of the three sources. Discussion: We illustrated with this preliminary study the potential of OntoTox to guide the integration of multiple sources, and identified that the three sources are only moderately overlapping, stressing the need for a common representation.}
 }
 @article{neuraz2020natural,
   title={Natural Language Processing for Rapid Response to Emergent Diseases: Case Study of Calcium Channel Blockers and Hypertension in the COVID-19 Pandemic},
@@ -87,11 +110,8 @@ Conclusion: Further works will extend OntoDol to other diseases and assess OntoD
   pdf={publications/20_neuraz_jmir.pdf},
   abbr={JMIR},
   abstract={Background: A novel disease poses special challenges for informatics solutions. Biomedical informatics relies for the most part on structured data, which require a preexisting data or knowledge model; however, novel diseases do not have preexisting knowledge models. In an emergent epidemic, language processing can enable rapid conversion of unstructured text to a novel knowledge model. However, although this idea has often been suggested, no opportunity has arisen to actually test it in real time. The current coronavirus disease (COVID-19) pandemic presents such an opportunity.
-
 Objective: The aim of this study was to evaluate the added value of information from clinical text in response to emergent diseases using natural language processing (NLP).
-
 Methods: We explored the effects of long-term treatment by calcium channel blockers on the outcomes of COVID-19 infection in patients with high blood pressure during in-patient hospital stays using two sources of information: data available strictly from structured electronic health records (EHRs) and data available through structured EHRs and text mining.
-
 Results: In this multicenter study involving 39 hospitals, text mining increased the statistical power sufficiently to change a negative result for an adjusted hazard ratio to a positive one. Compared to the baseline structured data, the number of patients available for inclusion in the study increased by 2.95 times, the amount of available information on medications increased by 7.2 times, and the amount of additional phenotypic information increased by 11.9 times.
 
 Conclusions: In our study, use of calcium channel blockers was associated with decreased in-hospital mortality in patients with COVID-19 infection. This finding was obtained by quickly adapting an NLP pipeline to the domain of the novel disease; the adapted pipeline still performed sufficiently to extract useful information. When that information was used to supplement existing structured data, the sample size could be increased sufficiently to see treatment effects that were not previously statistically detectable.}

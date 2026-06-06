@@ -11,6 +11,9 @@ horizontal: false
 
 
 ## Oral presentations
+##### ITiSB seminar
+- **Date:** 25/09/2025
+
 
 ##### ISMB/ECCB 2023 Lyon
 - **Date:** 25/07/2023
