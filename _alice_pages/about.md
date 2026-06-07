@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  Postdoctoral Researcher, <a href='https://carpem.fr/en/'> Paris Carpem Cancer Institute</a>
+subtitle:  Postdoctoral Researcher, <a href='https://itisb.unab.cl/'> Instituto de Tecnología para la Innovación en Salud y Bienestar</a>
 
 profile:
   align: right
