@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-07-17'
 papers:
   cHS6tmkAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -38,6 +38,6 @@ papers:
     title: Using an ontological representation of chemotherapy toxicities for guiding information extraction and integration from EHRs
     year: '2022'
   cHS6tmkAAAAJ:zYLM7Y9cAGgC:
-    citations: 9
+    citations: 8
     title: 'Facilitating phenotyping from clinical texts: the medkit library'
     year: '2024'
